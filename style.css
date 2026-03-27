@@ -1,0 +1,88 @@
+h1 {
+color: goldenrod;
+}
+p {
+    color: goldenrod;
+    text-align: justify;
+}
+.button {
+    color: white;
+    margin-left: 270px;
+    margin-bottom: 17px;
+    border: none;
+    background-color: rgb(5, 5, 89);
+    font-size: 16px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 12px;
+}
+.header {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 430px;
+}
+.paragraf1 {
+    margin-left: 270px;
+    margin-right: 250px;
+    margin-bottom: 25px;
+}
+.download {
+    margin-left: 270px;
+    margin-bottom: 40px;
+    margin-top: 8px;
+}
+.social {
+    margin-left: 565px;
+}
+.profile {
+    margin-top: 30px;
+    margin-left: 550px;
+}
+h3 {
+    font-size: 23px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+span {
+    margin-left: 26px;
+}
+.contact-section {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-size: 14px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+form .button {
+    margin-top: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}

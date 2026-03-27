@@ -1,7 +1,24 @@
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
         <title>My New Project</title>
         <style>
+            .navbar-custom {
+                background-color: goldenrod;
+            }
+            .btn-contact {
+                background-color: #0d1b2a;
+                color: white;
+                border-radius: 8px;
+                padding: 6px 12px;
+            }
+            .btn-contact:hover {
+                background-color: #1b263b;
+                color: white;
+            }
+        
             h1 {
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
             }
@@ -9,29 +26,79 @@
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
             }
         </style>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        
     </head>
-    <body style="background-color:black;">
-        <h1 style="color: goldenrod;">Welcome to My Website</h1>
-        <p style="color: goldenrod;">Halo namaku Hariri. Ini adalah website pertamaku, yang sejujurnya aku tidak tahu harus menulis apa. Entah kenapa diksi yang kupilih adalah "aku" bukan "saya", tentu ini sangat melukai kejantananku. Aku tidak tahu harus menulis formal seperti pada deskripsi diri dalam semua CV yang kutulis dahulu. Sejujurnya aku hanya ingin bersenang-senang dengan website pertamaku ini, semoga Kakak mentor dapat mengerti. Karena ini caraku belajar mencintai apa yang aku kerjakan. Cukup yappingnya, tentu jika mendapat project profesional aku tidak akan menulis seperti ini.</p>
-        <h2 style="color: goldenrod;">Identitas Diri</h2>
-        <table>
-            <tr>
-            <!-- Kolom kiri (gambar)-->
-             <td>
-                <img src="image.jpeg" alt="My Image" width="230" height="250">
-             </td>
+    <body>
+    <nav class="navbar navbar-expand-lg navbar-custom px-3">
+  <div class="container-fluid">
 
-             <!--Kolom kanan (teks)-->
-             <td>
-                <p style="color: goldenrod;"><b>Nama:</b> Rifki Bilal Hariri</p>
-                <p style="color: goldenrod;"><b>Tempat, Tanggal Lahir:</b> Bekasi, 27 Mei 2003</p>
-                <p style="color: goldenrod;"><b>Alamat:</b> KP. Blokang RT/RW 003/002, Kecamatan Karang Bahagia, Kabupaten Bekasi, Jawa Barat.</p>
-                <p style="color: goldenrod;"><b>Pendidikan:</b> SMAN 1 Sukatani</p>
-                <p style="color: goldenrod;"><b>Email:</b> rifkibilal257@gmail.com</p>
-                <p style="color: goldenrod;"><b>Hobi:</b> Menonton film</p>
-             </td>
-            </tr>
-        </table>
-       
+    <!-- Menu kiri -->
+    <div class="d-flex">
+      <a class="nav-link fw-bold me-3" href="#">Home</a>
+      <a="nav-link text-secondary" href="#">My Project</a>
+    </div>
+
+    <!-- Tombol kanan -->
+    <div class="ms-auto">
+      <a href="#" class="btn btn-dark">Contact Me</a>
+    </div>
+
+  </div>
+</nav>
+
+
+    <div style="background-color:rgb(0, 0, 0);">
+        <h1 style="color: goldenrod;" class="header">Welcome to My Website</h1>
+        <p class="paragraf1">Halo namaku Hariri. Ini adalah website pertamaku, yang sejujurnya aku tidak tahu harus menulis apa. Entah kenapa diksi yang kupilih adalah "aku" bukan "saya", tentu ini sangat melukai kejantananku. Aku tidak tahu harus menulis formal seperti pada deskripsi diri dalam semua CV yang kutulis dahulu. Sejujurnya aku hanya ingin bersenang-senang dengan website pertamaku ini, semoga Kakak mentor dapat mengerti. Karena ini caraku belajar mencintai apa yang aku kerjakan. Cukup yappingnya, tentu jika mendapat project profesional aku tidak akan menulis seperti ini.</p>
+       <a href="#contact" class="button">Contact</a>
+
+       <div style="color: goldenrod;" class="download">
+        download CV <i class="fa-solid fa-download" style="color: rgb(242, 204, 0);"></i>
+       </div>
+
+       <div class="social">
+       <i class="fa-brands fa-instagram fa-2xl" style="color: rgb(242, 204, 0);"></i>
+       <i class="fa-brands fa-linkedin-in fa-2xl" style="color: rgb(242, 204, 0);"></i>
+       <i class="fa-brands fa-facebook fa-2xl" style="color: rgb(242, 204, 0);"></i>
+       <i class="fa-brands fa-twitter fa-2xl" style="color: rgb(242, 204, 0);"></i>
+       </div>
+
+       <div class="profile">
+        <img src="goldpic.png" alt="profile" width="205" height="227">
+        <h3 style="color: goldenrod;">Rifki Bilal Hariri</h3>
+        <span style="color: goldenrod;">Fullstack Developer</span>
+       </div>
+
+       <!--FORM CONTACT-->
+       <section id="contact" class="contact-section">
+        <h2 style="color: goldenrod;">GET IN TOUCH</h2>
+
+        <form>
+            <label>Name</label>
+            <input type="text" placeholder="Your name">
+
+            <label>Email</label>
+            <input type="email" placeholder="Your email">
+
+            <label>Phone Number</label>
+            <input type="text" placeholder="Your phone">
+
+            <label>Subject</label>
+            <select>
+                <option>General</option>
+                <option>Project</option>
+                <option>Support</option>
+            </select>
+
+            <label>Your Message</label>
+            <textarea rows="4"></textarea>
+
+            <button type="submit" class="button">Submit</button>
+        </form>
+       </section>
+
+  
     </body>
 </html>
